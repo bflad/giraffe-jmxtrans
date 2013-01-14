@@ -6,12 +6,11 @@ A simple [Giraffe](http://github.com/kenhub/giraffe) configuration generator for
 
 ### Installation ###
 
+* Ensure you have yaml module for Python installed
 * Create a "jmxtrans" Giraffe dashboard from its repository
 * Save giraffe-jmxtrans.py to a useful location
-* Ensure giraffe-jmxtrans.py configuration at top is correct for your environment
+* Ensure giraffe-jmxtrans.yaml configuration is correct for your environment
 * Run giraffe-jmxtrans.py (or better yet setup a crontab)
-* Add the following line to your Giraffe index.html below the dashboards.js line: `<script src="dashboards-jmxtrans.js"></script>`
-* Comment out the `var dashboards` section of Giraffe dashboards.js
 
 ## Contributing ##
 
