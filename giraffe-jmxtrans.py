@@ -5,7 +5,7 @@ import re
 import shutil
 import os
 
-with open('giraffe-collectd.yaml') as configuration_file:
+with open('giraffe-jmxtrans.yaml') as configuration_file:
     configuration = yaml.safe_load(configuration_file)
 configuration_file.closed
 
