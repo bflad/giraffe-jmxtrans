@@ -4,6 +4,7 @@ import pprint
 import re
 import shutil
 import os
+import yaml
 
 with open('giraffe-jmxtrans.yaml') as configuration_file:
     configuration = yaml.safe_load(configuration_file)
