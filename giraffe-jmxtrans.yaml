@@ -1,5 +1,5 @@
 giraffe:
-  dashboard: '/opt/giraffe/public/collectd'
+  dashboard: '/opt/giraffe/public/jmxtrans'
   refresh: 10000
 graphite:
   prefix: 'jmx'
